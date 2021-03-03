@@ -1,8 +1,8 @@
 // libs
-import React from 'react';
-import Styled from 'styled-components';
+import React from 'react'
+import Styled from 'styled-components'
 
-export default () => {
+const HomeView = (): JSX.Element => {
   return (
     <Home.Layout>
       <Home.Title>Home</Home.Title>
@@ -18,3 +18,5 @@ const Home = {
   color: ${props => props.theme.colors.blue};
   `
 }
+
+export default HomeView
